@@ -62,7 +62,7 @@ import org.ebayopensource.fidouaf.stats.Info;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-@Path("/v1")
+@Path("/uaf/v1")
 public class FidoUafResource {
 
 	protected Gson gson = new GsonBuilder().disableHtmlEscaping().create();
